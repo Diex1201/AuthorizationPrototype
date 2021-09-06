@@ -1,0 +1,653 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void ErrServer::.ctor()
+extern void ErrServer__ctor_m9DDB8844EBF61470F7F881DEA60B3A22F17EA81B (void);
+// 0x00000002 System.Void ResultServer::.ctor()
+extern void ResultServer__ctor_m7B5742C145FB583CDED3D0C8F1B29A3560C02284 (void);
+// 0x00000003 System.Void AnswerFromServer::.ctor()
+extern void AnswerFromServer__ctor_m6DF4B79EB1DA2E42DBCF27C4BD20B1EC48E9D32E (void);
+// 0x00000004 System.Void Connection::Start()
+extern void Connection_Start_mA35C4337A45939A829B7109C3D1358AC2501C301 (void);
+// 0x00000005 System.Void Connection::Update()
+extern void Connection_Update_m22227FD12293C65AAF3334458AE82C53499F3318 (void);
+// 0x00000006 System.Void Connection::Authorization()
+extern void Connection_Authorization_m0748C8536D3FC38069285C6E0688B788FC3DE5F4 (void);
+// 0x00000007 System.Void Connection::SendWebSocketMessage()
+extern void Connection_SendWebSocketMessage_mB3C9440182C380C04DC74A76EB92CB979522FB77 (void);
+// 0x00000008 System.Void Connection::OnApplicationQuit()
+extern void Connection_OnApplicationQuit_m3D141D7B894B62190AB7584813BA1F097CEA29E0 (void);
+// 0x00000009 System.Collections.IEnumerator Connection::LoadGameScene()
+extern void Connection_LoadGameScene_mB8D0AF6368E6C6DD577987D27E43CB8F88CE50FF (void);
+// 0x0000000A System.Void Connection::.ctor()
+extern void Connection__ctor_mF45296E3AC098D1D68EE94E57738EEB9546B77AA (void);
+// 0x0000000B System.Void Connection::<Start>b__4_0()
+extern void Connection_U3CStartU3Eb__4_0_mA17CF1E953476D7B0DF5F09358A5C7D96788EC20 (void);
+// 0x0000000C System.Void Connection::<Start>b__4_1(System.String)
+extern void Connection_U3CStartU3Eb__4_1_mB8519431D30E3897B3BDD00D8EB5B7771B5064FA (void);
+// 0x0000000D System.Void Connection::<Start>b__4_3(System.Byte[])
+extern void Connection_U3CStartU3Eb__4_3_m85F68F9EAD824E32792CCFB67AEACEEC7D73995D (void);
+// 0x0000000E MainThreadUtil MainThreadUtil::get_Instance()
+extern void MainThreadUtil_get_Instance_mD9FB56A8AB930FEBF536D8193C0220DAE65127C9 (void);
+// 0x0000000F System.Void MainThreadUtil::set_Instance(MainThreadUtil)
+extern void MainThreadUtil_set_Instance_m5B91C3750F1CE426A534CF51DA5C287E91C4D5B8 (void);
+// 0x00000010 System.Threading.SynchronizationContext MainThreadUtil::get_synchronizationContext()
+extern void MainThreadUtil_get_synchronizationContext_mA37E536852B0A40E1C5E7E1A1D9A49658C7215D0 (void);
+// 0x00000011 System.Void MainThreadUtil::set_synchronizationContext(System.Threading.SynchronizationContext)
+extern void MainThreadUtil_set_synchronizationContext_m75FB914ED522D405E674A4E13AEEB4AAE0EC1908 (void);
+// 0x00000012 System.Void MainThreadUtil::Setup()
+extern void MainThreadUtil_Setup_m26C55CDB6F21D413E6069E8A27C22DE05759106B (void);
+// 0x00000013 System.Void MainThreadUtil::Run(System.Collections.IEnumerator)
+extern void MainThreadUtil_Run_mBC930FE44E9FCEB3B3C601BCF464AA0F4FE2621D (void);
+// 0x00000014 System.Void MainThreadUtil::Awake()
+extern void MainThreadUtil_Awake_m8AF95ACAAD2094819B05A1C0B2A88B4B03B8A891 (void);
+// 0x00000015 System.Void MainThreadUtil::.ctor()
+extern void MainThreadUtil__ctor_mB0FA4A0DC9BD696FF1FE09D392D3C8C50234734A (void);
+// 0x00000016 System.Boolean WaitForUpdate::get_keepWaiting()
+extern void WaitForUpdate_get_keepWaiting_mCFA09002E34A8EBB8C0C898A8BF95525EC6AA406 (void);
+// 0x00000017 WaitForUpdate/MainThreadAwaiter WaitForUpdate::GetAwaiter()
+extern void WaitForUpdate_GetAwaiter_m5697933B1A8ADEAA1C013EF91453A83541D569D3 (void);
+// 0x00000018 System.Collections.IEnumerator WaitForUpdate::CoroutineWrapper(System.Collections.IEnumerator,WaitForUpdate/MainThreadAwaiter)
+extern void WaitForUpdate_CoroutineWrapper_mB06747CEF8BCF94946EF6040A6ED6120F28684A5 (void);
+// 0x00000019 System.Void WaitForUpdate::.ctor()
+extern void WaitForUpdate__ctor_m614B770F26854ED31CCE0A759B475D5535D43AC5 (void);
+// 0x0000001A System.Void MouseCast::Update()
+extern void MouseCast_Update_m8724DBBF5A0D3E116BF90D60422FD7D195759CE6 (void);
+// 0x0000001B System.Void MouseCast::.ctor()
+extern void MouseCast__ctor_m1703F85DA9961661EE07277187C4DAF4F0AE23FD (void);
+// 0x0000001C System.Void ScrollAndPinch::Awake()
+extern void ScrollAndPinch_Awake_mEC858902BEF36574A938857DC77E19FB76E4E34D (void);
+// 0x0000001D System.Void ScrollAndPinch::Update()
+extern void ScrollAndPinch_Update_mE73615F07B05D4F8B5A6FDF149F90E8B8D0B21C6 (void);
+// 0x0000001E UnityEngine.Vector3 ScrollAndPinch::PlanePosition(UnityEngine.Vector2)
+extern void ScrollAndPinch_PlanePosition_mF90C5464FB273526835108D8316BAACE662FB8FA (void);
+// 0x0000001F UnityEngine.Vector3 ScrollAndPinch::PlanePositionDelta(UnityEngine.Touch)
+extern void ScrollAndPinch_PlanePositionDelta_m80A7C6C3F1CFCB128B3B653532FCD8E936538517 (void);
+// 0x00000020 System.Void ScrollAndPinch::.ctor()
+extern void ScrollAndPinch__ctor_m463AFD1D157C359F40404B32EC5B6B7C0F96F001 (void);
+// 0x00000021 System.Void NativeWebSocket.WebSocketOpenEventHandler::.ctor(System.Object,System.IntPtr)
+extern void WebSocketOpenEventHandler__ctor_m1809A890B2FE8ED19221EB9CBF348FEE8F19E115 (void);
+// 0x00000022 System.Void NativeWebSocket.WebSocketOpenEventHandler::Invoke()
+extern void WebSocketOpenEventHandler_Invoke_m1FDDA662BC3C5ACF65E31E8BA6456440AE0CC857 (void);
+// 0x00000023 System.IAsyncResult NativeWebSocket.WebSocketOpenEventHandler::BeginInvoke(System.AsyncCallback,System.Object)
+extern void WebSocketOpenEventHandler_BeginInvoke_mE81DB008FDCA31B6401B633906EFBDBE5D23DEDD (void);
+// 0x00000024 System.Void NativeWebSocket.WebSocketOpenEventHandler::EndInvoke(System.IAsyncResult)
+extern void WebSocketOpenEventHandler_EndInvoke_m570BCEF5DDA76DC1568E976EF906B3A1D39C8871 (void);
+// 0x00000025 System.Void NativeWebSocket.WebSocketMessageEventHandler::.ctor(System.Object,System.IntPtr)
+extern void WebSocketMessageEventHandler__ctor_mAF0BA6720A199F944A1F7AAE6CAE98A0C4EA5538 (void);
+// 0x00000026 System.Void NativeWebSocket.WebSocketMessageEventHandler::Invoke(System.Byte[])
+extern void WebSocketMessageEventHandler_Invoke_m8435861190BA0913502E4F2CB6668D28B8D74759 (void);
+// 0x00000027 System.IAsyncResult NativeWebSocket.WebSocketMessageEventHandler::BeginInvoke(System.Byte[],System.AsyncCallback,System.Object)
+extern void WebSocketMessageEventHandler_BeginInvoke_m720D609AEFD86B5FABDDB2C5F4EAB81830C5EBFC (void);
+// 0x00000028 System.Void NativeWebSocket.WebSocketMessageEventHandler::EndInvoke(System.IAsyncResult)
+extern void WebSocketMessageEventHandler_EndInvoke_m59FDAA5F5F925983DDE895240B33BE93A0E46D68 (void);
+// 0x00000029 System.Void NativeWebSocket.WebSocketErrorEventHandler::.ctor(System.Object,System.IntPtr)
+extern void WebSocketErrorEventHandler__ctor_m89873FB704DC7FCF39F6F00B9FC75DFFE1258D4C (void);
+// 0x0000002A System.Void NativeWebSocket.WebSocketErrorEventHandler::Invoke(System.String)
+extern void WebSocketErrorEventHandler_Invoke_mA813FFDAD52C0F04F3D72B63AC4945FA3A8D7058 (void);
+// 0x0000002B System.IAsyncResult NativeWebSocket.WebSocketErrorEventHandler::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void WebSocketErrorEventHandler_BeginInvoke_m325F5F1971413B8B206BE55CCD91DBF7C4B2CE14 (void);
+// 0x0000002C System.Void NativeWebSocket.WebSocketErrorEventHandler::EndInvoke(System.IAsyncResult)
+extern void WebSocketErrorEventHandler_EndInvoke_mD6023EAA4DCA6FE548D38CAE030C30C3475AF4A6 (void);
+// 0x0000002D System.Void NativeWebSocket.WebSocketCloseEventHandler::.ctor(System.Object,System.IntPtr)
+extern void WebSocketCloseEventHandler__ctor_m5B4942CC7469E8DFE3EB0CAB0BFA1A36691C221C (void);
+// 0x0000002E System.Void NativeWebSocket.WebSocketCloseEventHandler::Invoke(NativeWebSocket.WebSocketCloseCode)
+extern void WebSocketCloseEventHandler_Invoke_m4781AA899CA720140DB1CD3E20B53D39AC90311A (void);
+// 0x0000002F System.IAsyncResult NativeWebSocket.WebSocketCloseEventHandler::BeginInvoke(NativeWebSocket.WebSocketCloseCode,System.AsyncCallback,System.Object)
+extern void WebSocketCloseEventHandler_BeginInvoke_m4B532483745865CEAB6028CACE07EE739AD991AA (void);
+// 0x00000030 System.Void NativeWebSocket.WebSocketCloseEventHandler::EndInvoke(System.IAsyncResult)
+extern void WebSocketCloseEventHandler_EndInvoke_m44EFEFBBFB5CF56580FE5F2B16F6D35294F911A7 (void);
+// 0x00000031 System.Void NativeWebSocket.IWebSocket::add_OnOpen(NativeWebSocket.WebSocketOpenEventHandler)
+// 0x00000032 System.Void NativeWebSocket.IWebSocket::remove_OnOpen(NativeWebSocket.WebSocketOpenEventHandler)
+// 0x00000033 System.Void NativeWebSocket.IWebSocket::add_OnMessage(NativeWebSocket.WebSocketMessageEventHandler)
+// 0x00000034 System.Void NativeWebSocket.IWebSocket::remove_OnMessage(NativeWebSocket.WebSocketMessageEventHandler)
+// 0x00000035 System.Void NativeWebSocket.IWebSocket::add_OnError(NativeWebSocket.WebSocketErrorEventHandler)
+// 0x00000036 System.Void NativeWebSocket.IWebSocket::remove_OnError(NativeWebSocket.WebSocketErrorEventHandler)
+// 0x00000037 System.Void NativeWebSocket.IWebSocket::add_OnClose(NativeWebSocket.WebSocketCloseEventHandler)
+// 0x00000038 System.Void NativeWebSocket.IWebSocket::remove_OnClose(NativeWebSocket.WebSocketCloseEventHandler)
+// 0x00000039 NativeWebSocket.WebSocketState NativeWebSocket.IWebSocket::get_State()
+// 0x0000003A NativeWebSocket.WebSocketCloseCode NativeWebSocket.WebSocketHelpers::ParseCloseCodeEnum(System.Int32)
+extern void WebSocketHelpers_ParseCloseCodeEnum_m719389266B3DBD9607C62A6C0816A99BF33DD20F (void);
+// 0x0000003B NativeWebSocket.WebSocketException NativeWebSocket.WebSocketHelpers::GetErrorMessageFromCode(System.Int32,System.Exception)
+extern void WebSocketHelpers_GetErrorMessageFromCode_m6760B50B7C92EFDA063E4546E15A2C55882AEA7E (void);
+// 0x0000003C System.Void NativeWebSocket.WebSocketException::.ctor()
+extern void WebSocketException__ctor_m48006F45C7C8752FC47EECF10812014262354BEB (void);
+// 0x0000003D System.Void NativeWebSocket.WebSocketException::.ctor(System.String)
+extern void WebSocketException__ctor_m3CEEE57F07D68769323ECE7C7FB4C00063F27D3A (void);
+// 0x0000003E System.Void NativeWebSocket.WebSocketException::.ctor(System.String,System.Exception)
+extern void WebSocketException__ctor_mFD84CD85133D07281F84D2C5F1C14A89132F9500 (void);
+// 0x0000003F System.Void NativeWebSocket.WebSocketUnexpectedException::.ctor()
+extern void WebSocketUnexpectedException__ctor_mC858E9A48D3957E7BC7FA7E7F7CEF35B5D6008BB (void);
+// 0x00000040 System.Void NativeWebSocket.WebSocketUnexpectedException::.ctor(System.String)
+extern void WebSocketUnexpectedException__ctor_mB69B2858801E0A5DF05289CC80F74F86008147D7 (void);
+// 0x00000041 System.Void NativeWebSocket.WebSocketUnexpectedException::.ctor(System.String,System.Exception)
+extern void WebSocketUnexpectedException__ctor_m4BCA0BBE54DB3FC3EFF6C0E4EB3682A0DD71C1C8 (void);
+// 0x00000042 System.Void NativeWebSocket.WebSocketInvalidArgumentException::.ctor()
+extern void WebSocketInvalidArgumentException__ctor_m2DB877FD226C71669D6BEC0DDF7399165C7AE105 (void);
+// 0x00000043 System.Void NativeWebSocket.WebSocketInvalidArgumentException::.ctor(System.String)
+extern void WebSocketInvalidArgumentException__ctor_mBC7D03A399322A75EA26BE24AD29004C4E877708 (void);
+// 0x00000044 System.Void NativeWebSocket.WebSocketInvalidArgumentException::.ctor(System.String,System.Exception)
+extern void WebSocketInvalidArgumentException__ctor_m4D502EA5397574620C4AC8E406FAA86AC09C9E81 (void);
+// 0x00000045 System.Void NativeWebSocket.WebSocketInvalidStateException::.ctor()
+extern void WebSocketInvalidStateException__ctor_m8D6C4617B150F97F795BCF9A2DEDD3DF0D184E91 (void);
+// 0x00000046 System.Void NativeWebSocket.WebSocketInvalidStateException::.ctor(System.String)
+extern void WebSocketInvalidStateException__ctor_m8377B00CE4062657B15657EB2F9852082C1E2559 (void);
+// 0x00000047 System.Void NativeWebSocket.WebSocketInvalidStateException::.ctor(System.String,System.Exception)
+extern void WebSocketInvalidStateException__ctor_mB1DDDA5FEE81EDA1D0124D7DE72537BC6BD6DAA3 (void);
+// 0x00000048 System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter NativeWebSocket.WaitForBackgroundThread::GetAwaiter()
+extern void WaitForBackgroundThread_GetAwaiter_mC860B5F296BEE21CC3EBB0F7B86053051D49F725 (void);
+// 0x00000049 System.Void NativeWebSocket.WaitForBackgroundThread::.ctor()
+extern void WaitForBackgroundThread__ctor_m664A7B6602EB69FBDE6E0359C9DA0DD199449F30 (void);
+// 0x0000004A System.Void NativeWebSocket.WebSocket::add_OnOpen(NativeWebSocket.WebSocketOpenEventHandler)
+extern void WebSocket_add_OnOpen_m3AD885B71B3C90F1F5EC1A7217BA12114F894194 (void);
+// 0x0000004B System.Void NativeWebSocket.WebSocket::remove_OnOpen(NativeWebSocket.WebSocketOpenEventHandler)
+extern void WebSocket_remove_OnOpen_m3CBFA65BFBB4338C90A16D0BEEFF977D4C44728E (void);
+// 0x0000004C System.Void NativeWebSocket.WebSocket::add_OnMessage(NativeWebSocket.WebSocketMessageEventHandler)
+extern void WebSocket_add_OnMessage_m430209598ED003FC2695D7151F96EE603EF19BF4 (void);
+// 0x0000004D System.Void NativeWebSocket.WebSocket::remove_OnMessage(NativeWebSocket.WebSocketMessageEventHandler)
+extern void WebSocket_remove_OnMessage_m89AD476C6ED281FA9CC759C5ED02511C099E2155 (void);
+// 0x0000004E System.Void NativeWebSocket.WebSocket::add_OnError(NativeWebSocket.WebSocketErrorEventHandler)
+extern void WebSocket_add_OnError_m0DC8D3CE51CC45574ED5284BDF0F3189E976825F (void);
+// 0x0000004F System.Void NativeWebSocket.WebSocket::remove_OnError(NativeWebSocket.WebSocketErrorEventHandler)
+extern void WebSocket_remove_OnError_mAA1636E10B168BB12A56484C8F277C0B0707B88F (void);
+// 0x00000050 System.Void NativeWebSocket.WebSocket::add_OnClose(NativeWebSocket.WebSocketCloseEventHandler)
+extern void WebSocket_add_OnClose_m0FEFFD504C35320464513739813DDB8BB2418892 (void);
+// 0x00000051 System.Void NativeWebSocket.WebSocket::remove_OnClose(NativeWebSocket.WebSocketCloseEventHandler)
+extern void WebSocket_remove_OnClose_m85845A8506266B3206D00974DDA9794E58FFE391 (void);
+// 0x00000052 System.Void NativeWebSocket.WebSocket::.ctor(System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern void WebSocket__ctor_m77435DD84FB77AA519ADB9EE54E55AD5DBEC12B3 (void);
+// 0x00000053 System.Void NativeWebSocket.WebSocket::.ctor(System.String,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern void WebSocket__ctor_m3B1383EC7E04FBA3D2B729D61EC94A384FC0177B (void);
+// 0x00000054 System.Void NativeWebSocket.WebSocket::.ctor(System.String,System.Collections.Generic.List`1<System.String>,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern void WebSocket__ctor_m9D1C9560D09C859FE45BA412DC244AD36AE37931 (void);
+// 0x00000055 System.Void NativeWebSocket.WebSocket::CancelConnection()
+extern void WebSocket_CancelConnection_m5AF6D3C8A1C8C0B6E7903AA5CD4695EC6517794E (void);
+// 0x00000056 System.Threading.Tasks.Task NativeWebSocket.WebSocket::Connect()
+extern void WebSocket_Connect_m15EBC27022550F105BFBF73C31324C956A8160B6 (void);
+// 0x00000057 NativeWebSocket.WebSocketState NativeWebSocket.WebSocket::get_State()
+extern void WebSocket_get_State_m4AA24A8AC12B2EF33691C6AFA3C7D5270E1B0DC5 (void);
+// 0x00000058 System.Threading.Tasks.Task NativeWebSocket.WebSocket::Send(System.Byte[])
+extern void WebSocket_Send_m900ABA740BCF487F3C957BF261EED093BE162601 (void);
+// 0x00000059 System.Threading.Tasks.Task NativeWebSocket.WebSocket::SendText(System.String)
+extern void WebSocket_SendText_mB0149842CCEDBB3A3B6BBE15577AC2D568F141DD (void);
+// 0x0000005A System.Threading.Tasks.Task NativeWebSocket.WebSocket::SendMessage(System.Collections.Generic.List`1<System.ArraySegment`1<System.Byte>>,System.Net.WebSockets.WebSocketMessageType,System.ArraySegment`1<System.Byte>)
+extern void WebSocket_SendMessage_mBD4479F63EFB568A396B8B33929759CB086F989F (void);
+// 0x0000005B System.Threading.Tasks.Task NativeWebSocket.WebSocket::HandleQueue(System.Collections.Generic.List`1<System.ArraySegment`1<System.Byte>>,System.Net.WebSockets.WebSocketMessageType)
+extern void WebSocket_HandleQueue_mEF0E8905B683DC7448E4C3C113452CA85430B335 (void);
+// 0x0000005C System.Void NativeWebSocket.WebSocket::DispatchMessageQueue()
+extern void WebSocket_DispatchMessageQueue_mCD020A6293EED13872807F155640A811CC9B6FCE (void);
+// 0x0000005D System.Threading.Tasks.Task NativeWebSocket.WebSocket::Receive()
+extern void WebSocket_Receive_mA3C78435CD5D490465D8ADAD65201EE2731B8509 (void);
+// 0x0000005E System.Threading.Tasks.Task NativeWebSocket.WebSocket::Close()
+extern void WebSocket_Close_m302EA7C85C81F2409BF7D2BB0450CBF52D1EDE15 (void);
+// 0x0000005F NativeWebSocket.WebSocket NativeWebSocket.WebSocketFactory::CreateInstance(System.String)
+extern void WebSocketFactory_CreateInstance_mD304988097B4EFC944D4D63153E10E229005D7E3 (void);
+// 0x00000060 System.Void NewUserCreate.Params::.ctor()
+extern void Params__ctor_m88D94B87FC9E773AFE6C8F117C73B1A9EC4D54C1 (void);
+// 0x00000061 System.String NewUserCreate.NewUser::SavetoJson()
+extern void NewUser_SavetoJson_mD3674FDC08BFB7D35649FE51FBFC9635A1C10BB6 (void);
+// 0x00000062 System.Void NewUserCreate.NewUser::.ctor()
+extern void NewUser__ctor_mB5D84346F7208CBCD12DBFD8EC9B5CFBF1762058 (void);
+// 0x00000063 System.Void NewUserCreate.AccountDataInfo::AuthorizationOn()
+extern void AccountDataInfo_AuthorizationOn_mB2F76EEFF34B3DD26DEECFB7F840BE4B9CE32FEB (void);
+// 0x00000064 System.String NewUserCreate.AccountDataInfo::GetHash(System.String)
+extern void AccountDataInfo_GetHash_mBE82F9D8575EB663CB83BD8D3A603ADB0D08A544 (void);
+// 0x00000065 System.Void NewUserCreate.AccountDataInfo::.ctor()
+extern void AccountDataInfo__ctor_mBCE0F515136300FCBF88C0E006D3435E05CA83CE (void);
+// 0x00000066 System.Void Connection/<>c::.cctor()
+extern void U3CU3Ec__cctor_mDDE37AB5DE15AC2B846DA83692FB3708B5FF5D9D (void);
+// 0x00000067 System.Void Connection/<>c::.ctor()
+extern void U3CU3Ec__ctor_m26420DB234369354BB9F0CAA33725C8EBB3FE693 (void);
+// 0x00000068 System.Void Connection/<>c::<Start>b__4_2(NativeWebSocket.WebSocketCloseCode)
+extern void U3CU3Ec_U3CStartU3Eb__4_2_mEB879B7DC860F026B4C92E4D6B299BF7FADB1656 (void);
+// 0x00000069 System.Void Connection/<Start>d__4::MoveNext()
+extern void U3CStartU3Ed__4_MoveNext_m4A3E538AABC2DE7077845070EFF4C8D90DB05B4A (void);
+// 0x0000006A System.Void Connection/<Start>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartU3Ed__4_SetStateMachine_mF612CE51BC0B05939DF2DBCF77A22B488B6DB185 (void);
+// 0x0000006B System.Void Connection/<Authorization>d__6::MoveNext()
+extern void U3CAuthorizationU3Ed__6_MoveNext_mD1DE5E575C74401DCA3B8427F229AD18437C060D (void);
+// 0x0000006C System.Void Connection/<Authorization>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CAuthorizationU3Ed__6_SetStateMachine_m5717AAAB6155445C9E6BCD02EF4E4277CFF36D8B (void);
+// 0x0000006D System.Void Connection/<SendWebSocketMessage>d__7::MoveNext()
+extern void U3CSendWebSocketMessageU3Ed__7_MoveNext_m30E1BF84CF5074B536112EAA877B6D6A854C42A0 (void);
+// 0x0000006E System.Void Connection/<SendWebSocketMessage>d__7::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSendWebSocketMessageU3Ed__7_SetStateMachine_m0F10FB74225E159BD5E7ACA8CC8C8F4FDEF11963 (void);
+// 0x0000006F System.Void Connection/<OnApplicationQuit>d__8::MoveNext()
+extern void U3COnApplicationQuitU3Ed__8_MoveNext_m6C4AB4566D86C2F83A433392EF9A09748C5842AA (void);
+// 0x00000070 System.Void Connection/<OnApplicationQuit>d__8::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3COnApplicationQuitU3Ed__8_SetStateMachine_m4B76B414B7F7F24EB775C5F28584573E12E85B5E (void);
+// 0x00000071 System.Void Connection/<LoadGameScene>d__9::.ctor(System.Int32)
+extern void U3CLoadGameSceneU3Ed__9__ctor_mADDFF719143A9BA0A82E1FB24F31257B691B5CC2 (void);
+// 0x00000072 System.Void Connection/<LoadGameScene>d__9::System.IDisposable.Dispose()
+extern void U3CLoadGameSceneU3Ed__9_System_IDisposable_Dispose_m7BA426653DE078112483E8F435DF20EF5256B158 (void);
+// 0x00000073 System.Boolean Connection/<LoadGameScene>d__9::MoveNext()
+extern void U3CLoadGameSceneU3Ed__9_MoveNext_m2643813200D16F08C6D23F93150685A70C0596E7 (void);
+// 0x00000074 System.Object Connection/<LoadGameScene>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadGameSceneU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA832215FC75306D787EFD99872ACC6C0198C947B (void);
+// 0x00000075 System.Void Connection/<LoadGameScene>d__9::System.Collections.IEnumerator.Reset()
+extern void U3CLoadGameSceneU3Ed__9_System_Collections_IEnumerator_Reset_m2ECFFDF4DC85F2FC1D82636D457842915E7CF07C (void);
+// 0x00000076 System.Object Connection/<LoadGameScene>d__9::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadGameSceneU3Ed__9_System_Collections_IEnumerator_get_Current_m4E4C3F2D8C9E14478255ACF8A5BE88FCEA125E40 (void);
+// 0x00000077 System.Void MainThreadUtil/<>c__DisplayClass9_0::.ctor()
+extern void U3CU3Ec__DisplayClass9_0__ctor_m25C18B2CA7FED1037D7E391BB93CB863C2D05DDF (void);
+// 0x00000078 System.Void MainThreadUtil/<>c__DisplayClass9_0::<Run>b__0(System.Object)
+extern void U3CU3Ec__DisplayClass9_0_U3CRunU3Eb__0_m50FA6256E1E7A4F485243CFD944FC5E8522E31E0 (void);
+// 0x00000079 System.Boolean WaitForUpdate/MainThreadAwaiter::get_IsCompleted()
+extern void MainThreadAwaiter_get_IsCompleted_m4554575D8258D61E1522F0402246D0F2983D54C7 (void);
+// 0x0000007A System.Void WaitForUpdate/MainThreadAwaiter::set_IsCompleted(System.Boolean)
+extern void MainThreadAwaiter_set_IsCompleted_mF9CC2D5BF9A411E072C012163D9BEA5599198798 (void);
+// 0x0000007B System.Void WaitForUpdate/MainThreadAwaiter::GetResult()
+extern void MainThreadAwaiter_GetResult_m5F6CF406FA23FF2F3D5F04F2F2F86F2F1F4E769C (void);
+// 0x0000007C System.Void WaitForUpdate/MainThreadAwaiter::Complete()
+extern void MainThreadAwaiter_Complete_m219870D8C94173287514C0400033CBB3A95CEA8A (void);
+// 0x0000007D System.Void WaitForUpdate/MainThreadAwaiter::System.Runtime.CompilerServices.INotifyCompletion.OnCompleted(System.Action)
+extern void MainThreadAwaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_m58664518FA46E9AFE6C15B24F42E53D6CFFD651E (void);
+// 0x0000007E System.Void WaitForUpdate/MainThreadAwaiter::.ctor()
+extern void MainThreadAwaiter__ctor_mB90D56923CED905B3FBE6E132179810064DBEB45 (void);
+// 0x0000007F System.Void WaitForUpdate/<CoroutineWrapper>d__4::.ctor(System.Int32)
+extern void U3CCoroutineWrapperU3Ed__4__ctor_m575DB1A02B0B664D913C34BB3AF6CDA1D13177BD (void);
+// 0x00000080 System.Void WaitForUpdate/<CoroutineWrapper>d__4::System.IDisposable.Dispose()
+extern void U3CCoroutineWrapperU3Ed__4_System_IDisposable_Dispose_m9D18EB25113D10C706B578A6B539270AE98BB17B (void);
+// 0x00000081 System.Boolean WaitForUpdate/<CoroutineWrapper>d__4::MoveNext()
+extern void U3CCoroutineWrapperU3Ed__4_MoveNext_m12BF7BF68F572A943827BF88FBF759B09DC5CEA2 (void);
+// 0x00000082 System.Object WaitForUpdate/<CoroutineWrapper>d__4::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCoroutineWrapperU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9B00A18EB8F647308AA76A655882BACD9924C4A9 (void);
+// 0x00000083 System.Void WaitForUpdate/<CoroutineWrapper>d__4::System.Collections.IEnumerator.Reset()
+extern void U3CCoroutineWrapperU3Ed__4_System_Collections_IEnumerator_Reset_m871F769BF0D5E6F9DE1D575E42ABB28E375EAD90 (void);
+// 0x00000084 System.Object WaitForUpdate/<CoroutineWrapper>d__4::System.Collections.IEnumerator.get_Current()
+extern void U3CCoroutineWrapperU3Ed__4_System_Collections_IEnumerator_get_Current_m39047CC28FFBCCBB03D75BA7F3E3080D67A52D3A (void);
+// 0x00000085 System.Void NativeWebSocket.WaitForBackgroundThread/<>c::.cctor()
+extern void U3CU3Ec__cctor_m04095B146DEED38FC0333E436A9502E07C0BF9F6 (void);
+// 0x00000086 System.Void NativeWebSocket.WaitForBackgroundThread/<>c::.ctor()
+extern void U3CU3Ec__ctor_m808C7AF3D1836C186578D38B452E3124D19965B6 (void);
+// 0x00000087 System.Void NativeWebSocket.WaitForBackgroundThread/<>c::<GetAwaiter>b__0_0()
+extern void U3CU3Ec_U3CGetAwaiterU3Eb__0_0_m995C95DABA4F2F6BF4ACF2F4158056EA6C467DC5 (void);
+// 0x00000088 System.Void NativeWebSocket.WebSocket/<Connect>d__26::MoveNext()
+extern void U3CConnectU3Ed__26_MoveNext_m856594C822EAC56AA76430F31F9CA4677673158B (void);
+// 0x00000089 System.Void NativeWebSocket.WebSocket/<Connect>d__26::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CConnectU3Ed__26_SetStateMachine_m09648F48E2807666E49B2E6B7DCF638DF71391FE (void);
+// 0x0000008A System.Void NativeWebSocket.WebSocket/<SendMessage>d__31::MoveNext()
+extern void U3CSendMessageU3Ed__31_MoveNext_m3E68CB6857DA8DD2FC4AAC78AAD7E8ACE8BE35B1 (void);
+// 0x0000008B System.Void NativeWebSocket.WebSocket/<SendMessage>d__31::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSendMessageU3Ed__31_SetStateMachine_m95F60C76FF826822268245EFC381B655C7AA3551 (void);
+// 0x0000008C System.Void NativeWebSocket.WebSocket/<HandleQueue>d__32::MoveNext()
+extern void U3CHandleQueueU3Ed__32_MoveNext_m406B4DB5B6FAE7981115477719DD8BEF41E5E4A3 (void);
+// 0x0000008D System.Void NativeWebSocket.WebSocket/<HandleQueue>d__32::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CHandleQueueU3Ed__32_SetStateMachine_mBC86BBE156BA3CC8376AC9D08DA0C5A15F7C8F2C (void);
+// 0x0000008E System.Void NativeWebSocket.WebSocket/<Receive>d__36::MoveNext()
+extern void U3CReceiveU3Ed__36_MoveNext_m91E50E9630FD05124A3818403F38B465209E6217 (void);
+// 0x0000008F System.Void NativeWebSocket.WebSocket/<Receive>d__36::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CReceiveU3Ed__36_SetStateMachine_mF9CA20E79509640182E9ED5D63A9F9E2C728F1F1 (void);
+// 0x00000090 System.Void NativeWebSocket.WebSocket/<Close>d__37::MoveNext()
+extern void U3CCloseU3Ed__37_MoveNext_mD11ADE89B42B8D9F0D2A742D5D0415D68769DE75 (void);
+// 0x00000091 System.Void NativeWebSocket.WebSocket/<Close>d__37::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CCloseU3Ed__37_SetStateMachine_mF5BCC166CCE3B63F632DADBB34A216F94530EA55 (void);
+static Il2CppMethodPointer s_methodPointers[145] = 
+{
+	ErrServer__ctor_m9DDB8844EBF61470F7F881DEA60B3A22F17EA81B,
+	ResultServer__ctor_m7B5742C145FB583CDED3D0C8F1B29A3560C02284,
+	AnswerFromServer__ctor_m6DF4B79EB1DA2E42DBCF27C4BD20B1EC48E9D32E,
+	Connection_Start_mA35C4337A45939A829B7109C3D1358AC2501C301,
+	Connection_Update_m22227FD12293C65AAF3334458AE82C53499F3318,
+	Connection_Authorization_m0748C8536D3FC38069285C6E0688B788FC3DE5F4,
+	Connection_SendWebSocketMessage_mB3C9440182C380C04DC74A76EB92CB979522FB77,
+	Connection_OnApplicationQuit_m3D141D7B894B62190AB7584813BA1F097CEA29E0,
+	Connection_LoadGameScene_mB8D0AF6368E6C6DD577987D27E43CB8F88CE50FF,
+	Connection__ctor_mF45296E3AC098D1D68EE94E57738EEB9546B77AA,
+	Connection_U3CStartU3Eb__4_0_mA17CF1E953476D7B0DF5F09358A5C7D96788EC20,
+	Connection_U3CStartU3Eb__4_1_mB8519431D30E3897B3BDD00D8EB5B7771B5064FA,
+	Connection_U3CStartU3Eb__4_3_m85F68F9EAD824E32792CCFB67AEACEEC7D73995D,
+	MainThreadUtil_get_Instance_mD9FB56A8AB930FEBF536D8193C0220DAE65127C9,
+	MainThreadUtil_set_Instance_m5B91C3750F1CE426A534CF51DA5C287E91C4D5B8,
+	MainThreadUtil_get_synchronizationContext_mA37E536852B0A40E1C5E7E1A1D9A49658C7215D0,
+	MainThreadUtil_set_synchronizationContext_m75FB914ED522D405E674A4E13AEEB4AAE0EC1908,
+	MainThreadUtil_Setup_m26C55CDB6F21D413E6069E8A27C22DE05759106B,
+	MainThreadUtil_Run_mBC930FE44E9FCEB3B3C601BCF464AA0F4FE2621D,
+	MainThreadUtil_Awake_m8AF95ACAAD2094819B05A1C0B2A88B4B03B8A891,
+	MainThreadUtil__ctor_mB0FA4A0DC9BD696FF1FE09D392D3C8C50234734A,
+	WaitForUpdate_get_keepWaiting_mCFA09002E34A8EBB8C0C898A8BF95525EC6AA406,
+	WaitForUpdate_GetAwaiter_m5697933B1A8ADEAA1C013EF91453A83541D569D3,
+	WaitForUpdate_CoroutineWrapper_mB06747CEF8BCF94946EF6040A6ED6120F28684A5,
+	WaitForUpdate__ctor_m614B770F26854ED31CCE0A759B475D5535D43AC5,
+	MouseCast_Update_m8724DBBF5A0D3E116BF90D60422FD7D195759CE6,
+	MouseCast__ctor_m1703F85DA9961661EE07277187C4DAF4F0AE23FD,
+	ScrollAndPinch_Awake_mEC858902BEF36574A938857DC77E19FB76E4E34D,
+	ScrollAndPinch_Update_mE73615F07B05D4F8B5A6FDF149F90E8B8D0B21C6,
+	ScrollAndPinch_PlanePosition_mF90C5464FB273526835108D8316BAACE662FB8FA,
+	ScrollAndPinch_PlanePositionDelta_m80A7C6C3F1CFCB128B3B653532FCD8E936538517,
+	ScrollAndPinch__ctor_m463AFD1D157C359F40404B32EC5B6B7C0F96F001,
+	WebSocketOpenEventHandler__ctor_m1809A890B2FE8ED19221EB9CBF348FEE8F19E115,
+	WebSocketOpenEventHandler_Invoke_m1FDDA662BC3C5ACF65E31E8BA6456440AE0CC857,
+	WebSocketOpenEventHandler_BeginInvoke_mE81DB008FDCA31B6401B633906EFBDBE5D23DEDD,
+	WebSocketOpenEventHandler_EndInvoke_m570BCEF5DDA76DC1568E976EF906B3A1D39C8871,
+	WebSocketMessageEventHandler__ctor_mAF0BA6720A199F944A1F7AAE6CAE98A0C4EA5538,
+	WebSocketMessageEventHandler_Invoke_m8435861190BA0913502E4F2CB6668D28B8D74759,
+	WebSocketMessageEventHandler_BeginInvoke_m720D609AEFD86B5FABDDB2C5F4EAB81830C5EBFC,
+	WebSocketMessageEventHandler_EndInvoke_m59FDAA5F5F925983DDE895240B33BE93A0E46D68,
+	WebSocketErrorEventHandler__ctor_m89873FB704DC7FCF39F6F00B9FC75DFFE1258D4C,
+	WebSocketErrorEventHandler_Invoke_mA813FFDAD52C0F04F3D72B63AC4945FA3A8D7058,
+	WebSocketErrorEventHandler_BeginInvoke_m325F5F1971413B8B206BE55CCD91DBF7C4B2CE14,
+	WebSocketErrorEventHandler_EndInvoke_mD6023EAA4DCA6FE548D38CAE030C30C3475AF4A6,
+	WebSocketCloseEventHandler__ctor_m5B4942CC7469E8DFE3EB0CAB0BFA1A36691C221C,
+	WebSocketCloseEventHandler_Invoke_m4781AA899CA720140DB1CD3E20B53D39AC90311A,
+	WebSocketCloseEventHandler_BeginInvoke_m4B532483745865CEAB6028CACE07EE739AD991AA,
+	WebSocketCloseEventHandler_EndInvoke_m44EFEFBBFB5CF56580FE5F2B16F6D35294F911A7,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	WebSocketHelpers_ParseCloseCodeEnum_m719389266B3DBD9607C62A6C0816A99BF33DD20F,
+	WebSocketHelpers_GetErrorMessageFromCode_m6760B50B7C92EFDA063E4546E15A2C55882AEA7E,
+	WebSocketException__ctor_m48006F45C7C8752FC47EECF10812014262354BEB,
+	WebSocketException__ctor_m3CEEE57F07D68769323ECE7C7FB4C00063F27D3A,
+	WebSocketException__ctor_mFD84CD85133D07281F84D2C5F1C14A89132F9500,
+	WebSocketUnexpectedException__ctor_mC858E9A48D3957E7BC7FA7E7F7CEF35B5D6008BB,
+	WebSocketUnexpectedException__ctor_mB69B2858801E0A5DF05289CC80F74F86008147D7,
+	WebSocketUnexpectedException__ctor_m4BCA0BBE54DB3FC3EFF6C0E4EB3682A0DD71C1C8,
+	WebSocketInvalidArgumentException__ctor_m2DB877FD226C71669D6BEC0DDF7399165C7AE105,
+	WebSocketInvalidArgumentException__ctor_mBC7D03A399322A75EA26BE24AD29004C4E877708,
+	WebSocketInvalidArgumentException__ctor_m4D502EA5397574620C4AC8E406FAA86AC09C9E81,
+	WebSocketInvalidStateException__ctor_m8D6C4617B150F97F795BCF9A2DEDD3DF0D184E91,
+	WebSocketInvalidStateException__ctor_m8377B00CE4062657B15657EB2F9852082C1E2559,
+	WebSocketInvalidStateException__ctor_mB1DDDA5FEE81EDA1D0124D7DE72537BC6BD6DAA3,
+	WaitForBackgroundThread_GetAwaiter_mC860B5F296BEE21CC3EBB0F7B86053051D49F725,
+	WaitForBackgroundThread__ctor_m664A7B6602EB69FBDE6E0359C9DA0DD199449F30,
+	WebSocket_add_OnOpen_m3AD885B71B3C90F1F5EC1A7217BA12114F894194,
+	WebSocket_remove_OnOpen_m3CBFA65BFBB4338C90A16D0BEEFF977D4C44728E,
+	WebSocket_add_OnMessage_m430209598ED003FC2695D7151F96EE603EF19BF4,
+	WebSocket_remove_OnMessage_m89AD476C6ED281FA9CC759C5ED02511C099E2155,
+	WebSocket_add_OnError_m0DC8D3CE51CC45574ED5284BDF0F3189E976825F,
+	WebSocket_remove_OnError_mAA1636E10B168BB12A56484C8F277C0B0707B88F,
+	WebSocket_add_OnClose_m0FEFFD504C35320464513739813DDB8BB2418892,
+	WebSocket_remove_OnClose_m85845A8506266B3206D00974DDA9794E58FFE391,
+	WebSocket__ctor_m77435DD84FB77AA519ADB9EE54E55AD5DBEC12B3,
+	WebSocket__ctor_m3B1383EC7E04FBA3D2B729D61EC94A384FC0177B,
+	WebSocket__ctor_m9D1C9560D09C859FE45BA412DC244AD36AE37931,
+	WebSocket_CancelConnection_m5AF6D3C8A1C8C0B6E7903AA5CD4695EC6517794E,
+	WebSocket_Connect_m15EBC27022550F105BFBF73C31324C956A8160B6,
+	WebSocket_get_State_m4AA24A8AC12B2EF33691C6AFA3C7D5270E1B0DC5,
+	WebSocket_Send_m900ABA740BCF487F3C957BF261EED093BE162601,
+	WebSocket_SendText_mB0149842CCEDBB3A3B6BBE15577AC2D568F141DD,
+	WebSocket_SendMessage_mBD4479F63EFB568A396B8B33929759CB086F989F,
+	WebSocket_HandleQueue_mEF0E8905B683DC7448E4C3C113452CA85430B335,
+	WebSocket_DispatchMessageQueue_mCD020A6293EED13872807F155640A811CC9B6FCE,
+	WebSocket_Receive_mA3C78435CD5D490465D8ADAD65201EE2731B8509,
+	WebSocket_Close_m302EA7C85C81F2409BF7D2BB0450CBF52D1EDE15,
+	WebSocketFactory_CreateInstance_mD304988097B4EFC944D4D63153E10E229005D7E3,
+	Params__ctor_m88D94B87FC9E773AFE6C8F117C73B1A9EC4D54C1,
+	NewUser_SavetoJson_mD3674FDC08BFB7D35649FE51FBFC9635A1C10BB6,
+	NewUser__ctor_mB5D84346F7208CBCD12DBFD8EC9B5CFBF1762058,
+	AccountDataInfo_AuthorizationOn_mB2F76EEFF34B3DD26DEECFB7F840BE4B9CE32FEB,
+	AccountDataInfo_GetHash_mBE82F9D8575EB663CB83BD8D3A603ADB0D08A544,
+	AccountDataInfo__ctor_mBCE0F515136300FCBF88C0E006D3435E05CA83CE,
+	U3CU3Ec__cctor_mDDE37AB5DE15AC2B846DA83692FB3708B5FF5D9D,
+	U3CU3Ec__ctor_m26420DB234369354BB9F0CAA33725C8EBB3FE693,
+	U3CU3Ec_U3CStartU3Eb__4_2_mEB879B7DC860F026B4C92E4D6B299BF7FADB1656,
+	U3CStartU3Ed__4_MoveNext_m4A3E538AABC2DE7077845070EFF4C8D90DB05B4A,
+	U3CStartU3Ed__4_SetStateMachine_mF612CE51BC0B05939DF2DBCF77A22B488B6DB185,
+	U3CAuthorizationU3Ed__6_MoveNext_mD1DE5E575C74401DCA3B8427F229AD18437C060D,
+	U3CAuthorizationU3Ed__6_SetStateMachine_m5717AAAB6155445C9E6BCD02EF4E4277CFF36D8B,
+	U3CSendWebSocketMessageU3Ed__7_MoveNext_m30E1BF84CF5074B536112EAA877B6D6A854C42A0,
+	U3CSendWebSocketMessageU3Ed__7_SetStateMachine_m0F10FB74225E159BD5E7ACA8CC8C8F4FDEF11963,
+	U3COnApplicationQuitU3Ed__8_MoveNext_m6C4AB4566D86C2F83A433392EF9A09748C5842AA,
+	U3COnApplicationQuitU3Ed__8_SetStateMachine_m4B76B414B7F7F24EB775C5F28584573E12E85B5E,
+	U3CLoadGameSceneU3Ed__9__ctor_mADDFF719143A9BA0A82E1FB24F31257B691B5CC2,
+	U3CLoadGameSceneU3Ed__9_System_IDisposable_Dispose_m7BA426653DE078112483E8F435DF20EF5256B158,
+	U3CLoadGameSceneU3Ed__9_MoveNext_m2643813200D16F08C6D23F93150685A70C0596E7,
+	U3CLoadGameSceneU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA832215FC75306D787EFD99872ACC6C0198C947B,
+	U3CLoadGameSceneU3Ed__9_System_Collections_IEnumerator_Reset_m2ECFFDF4DC85F2FC1D82636D457842915E7CF07C,
+	U3CLoadGameSceneU3Ed__9_System_Collections_IEnumerator_get_Current_m4E4C3F2D8C9E14478255ACF8A5BE88FCEA125E40,
+	U3CU3Ec__DisplayClass9_0__ctor_m25C18B2CA7FED1037D7E391BB93CB863C2D05DDF,
+	U3CU3Ec__DisplayClass9_0_U3CRunU3Eb__0_m50FA6256E1E7A4F485243CFD944FC5E8522E31E0,
+	MainThreadAwaiter_get_IsCompleted_m4554575D8258D61E1522F0402246D0F2983D54C7,
+	MainThreadAwaiter_set_IsCompleted_mF9CC2D5BF9A411E072C012163D9BEA5599198798,
+	MainThreadAwaiter_GetResult_m5F6CF406FA23FF2F3D5F04F2F2F86F2F1F4E769C,
+	MainThreadAwaiter_Complete_m219870D8C94173287514C0400033CBB3A95CEA8A,
+	MainThreadAwaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_m58664518FA46E9AFE6C15B24F42E53D6CFFD651E,
+	MainThreadAwaiter__ctor_mB90D56923CED905B3FBE6E132179810064DBEB45,
+	U3CCoroutineWrapperU3Ed__4__ctor_m575DB1A02B0B664D913C34BB3AF6CDA1D13177BD,
+	U3CCoroutineWrapperU3Ed__4_System_IDisposable_Dispose_m9D18EB25113D10C706B578A6B539270AE98BB17B,
+	U3CCoroutineWrapperU3Ed__4_MoveNext_m12BF7BF68F572A943827BF88FBF759B09DC5CEA2,
+	U3CCoroutineWrapperU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9B00A18EB8F647308AA76A655882BACD9924C4A9,
+	U3CCoroutineWrapperU3Ed__4_System_Collections_IEnumerator_Reset_m871F769BF0D5E6F9DE1D575E42ABB28E375EAD90,
+	U3CCoroutineWrapperU3Ed__4_System_Collections_IEnumerator_get_Current_m39047CC28FFBCCBB03D75BA7F3E3080D67A52D3A,
+	U3CU3Ec__cctor_m04095B146DEED38FC0333E436A9502E07C0BF9F6,
+	U3CU3Ec__ctor_m808C7AF3D1836C186578D38B452E3124D19965B6,
+	U3CU3Ec_U3CGetAwaiterU3Eb__0_0_m995C95DABA4F2F6BF4ACF2F4158056EA6C467DC5,
+	U3CConnectU3Ed__26_MoveNext_m856594C822EAC56AA76430F31F9CA4677673158B,
+	U3CConnectU3Ed__26_SetStateMachine_m09648F48E2807666E49B2E6B7DCF638DF71391FE,
+	U3CSendMessageU3Ed__31_MoveNext_m3E68CB6857DA8DD2FC4AAC78AAD7E8ACE8BE35B1,
+	U3CSendMessageU3Ed__31_SetStateMachine_m95F60C76FF826822268245EFC381B655C7AA3551,
+	U3CHandleQueueU3Ed__32_MoveNext_m406B4DB5B6FAE7981115477719DD8BEF41E5E4A3,
+	U3CHandleQueueU3Ed__32_SetStateMachine_mBC86BBE156BA3CC8376AC9D08DA0C5A15F7C8F2C,
+	U3CReceiveU3Ed__36_MoveNext_m91E50E9630FD05124A3818403F38B465209E6217,
+	U3CReceiveU3Ed__36_SetStateMachine_mF9CA20E79509640182E9ED5D63A9F9E2C728F1F1,
+	U3CCloseU3Ed__37_MoveNext_mD11ADE89B42B8D9F0D2A742D5D0415D68769DE75,
+	U3CCloseU3Ed__37_SetStateMachine_mF5BCC166CCE3B63F632DADBB34A216F94530EA55,
+};
+extern void U3CStartU3Ed__4_MoveNext_m4A3E538AABC2DE7077845070EFF4C8D90DB05B4A_AdjustorThunk (void);
+extern void U3CStartU3Ed__4_SetStateMachine_mF612CE51BC0B05939DF2DBCF77A22B488B6DB185_AdjustorThunk (void);
+extern void U3CAuthorizationU3Ed__6_MoveNext_mD1DE5E575C74401DCA3B8427F229AD18437C060D_AdjustorThunk (void);
+extern void U3CAuthorizationU3Ed__6_SetStateMachine_m5717AAAB6155445C9E6BCD02EF4E4277CFF36D8B_AdjustorThunk (void);
+extern void U3CSendWebSocketMessageU3Ed__7_MoveNext_m30E1BF84CF5074B536112EAA877B6D6A854C42A0_AdjustorThunk (void);
+extern void U3CSendWebSocketMessageU3Ed__7_SetStateMachine_m0F10FB74225E159BD5E7ACA8CC8C8F4FDEF11963_AdjustorThunk (void);
+extern void U3COnApplicationQuitU3Ed__8_MoveNext_m6C4AB4566D86C2F83A433392EF9A09748C5842AA_AdjustorThunk (void);
+extern void U3COnApplicationQuitU3Ed__8_SetStateMachine_m4B76B414B7F7F24EB775C5F28584573E12E85B5E_AdjustorThunk (void);
+extern void U3CConnectU3Ed__26_MoveNext_m856594C822EAC56AA76430F31F9CA4677673158B_AdjustorThunk (void);
+extern void U3CConnectU3Ed__26_SetStateMachine_m09648F48E2807666E49B2E6B7DCF638DF71391FE_AdjustorThunk (void);
+extern void U3CSendMessageU3Ed__31_MoveNext_m3E68CB6857DA8DD2FC4AAC78AAD7E8ACE8BE35B1_AdjustorThunk (void);
+extern void U3CSendMessageU3Ed__31_SetStateMachine_m95F60C76FF826822268245EFC381B655C7AA3551_AdjustorThunk (void);
+extern void U3CHandleQueueU3Ed__32_MoveNext_m406B4DB5B6FAE7981115477719DD8BEF41E5E4A3_AdjustorThunk (void);
+extern void U3CHandleQueueU3Ed__32_SetStateMachine_mBC86BBE156BA3CC8376AC9D08DA0C5A15F7C8F2C_AdjustorThunk (void);
+extern void U3CReceiveU3Ed__36_MoveNext_m91E50E9630FD05124A3818403F38B465209E6217_AdjustorThunk (void);
+extern void U3CReceiveU3Ed__36_SetStateMachine_mF9CA20E79509640182E9ED5D63A9F9E2C728F1F1_AdjustorThunk (void);
+extern void U3CCloseU3Ed__37_MoveNext_mD11ADE89B42B8D9F0D2A742D5D0415D68769DE75_AdjustorThunk (void);
+extern void U3CCloseU3Ed__37_SetStateMachine_mF5BCC166CCE3B63F632DADBB34A216F94530EA55_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[18] = 
+{
+	{ 0x06000069, U3CStartU3Ed__4_MoveNext_m4A3E538AABC2DE7077845070EFF4C8D90DB05B4A_AdjustorThunk },
+	{ 0x0600006A, U3CStartU3Ed__4_SetStateMachine_mF612CE51BC0B05939DF2DBCF77A22B488B6DB185_AdjustorThunk },
+	{ 0x0600006B, U3CAuthorizationU3Ed__6_MoveNext_mD1DE5E575C74401DCA3B8427F229AD18437C060D_AdjustorThunk },
+	{ 0x0600006C, U3CAuthorizationU3Ed__6_SetStateMachine_m5717AAAB6155445C9E6BCD02EF4E4277CFF36D8B_AdjustorThunk },
+	{ 0x0600006D, U3CSendWebSocketMessageU3Ed__7_MoveNext_m30E1BF84CF5074B536112EAA877B6D6A854C42A0_AdjustorThunk },
+	{ 0x0600006E, U3CSendWebSocketMessageU3Ed__7_SetStateMachine_m0F10FB74225E159BD5E7ACA8CC8C8F4FDEF11963_AdjustorThunk },
+	{ 0x0600006F, U3COnApplicationQuitU3Ed__8_MoveNext_m6C4AB4566D86C2F83A433392EF9A09748C5842AA_AdjustorThunk },
+	{ 0x06000070, U3COnApplicationQuitU3Ed__8_SetStateMachine_m4B76B414B7F7F24EB775C5F28584573E12E85B5E_AdjustorThunk },
+	{ 0x06000088, U3CConnectU3Ed__26_MoveNext_m856594C822EAC56AA76430F31F9CA4677673158B_AdjustorThunk },
+	{ 0x06000089, U3CConnectU3Ed__26_SetStateMachine_m09648F48E2807666E49B2E6B7DCF638DF71391FE_AdjustorThunk },
+	{ 0x0600008A, U3CSendMessageU3Ed__31_MoveNext_m3E68CB6857DA8DD2FC4AAC78AAD7E8ACE8BE35B1_AdjustorThunk },
+	{ 0x0600008B, U3CSendMessageU3Ed__31_SetStateMachine_m95F60C76FF826822268245EFC381B655C7AA3551_AdjustorThunk },
+	{ 0x0600008C, U3CHandleQueueU3Ed__32_MoveNext_m406B4DB5B6FAE7981115477719DD8BEF41E5E4A3_AdjustorThunk },
+	{ 0x0600008D, U3CHandleQueueU3Ed__32_SetStateMachine_mBC86BBE156BA3CC8376AC9D08DA0C5A15F7C8F2C_AdjustorThunk },
+	{ 0x0600008E, U3CReceiveU3Ed__36_MoveNext_m91E50E9630FD05124A3818403F38B465209E6217_AdjustorThunk },
+	{ 0x0600008F, U3CReceiveU3Ed__36_SetStateMachine_mF9CA20E79509640182E9ED5D63A9F9E2C728F1F1_AdjustorThunk },
+	{ 0x06000090, U3CCloseU3Ed__37_MoveNext_mD11ADE89B42B8D9F0D2A742D5D0415D68769DE75_AdjustorThunk },
+	{ 0x06000091, U3CCloseU3Ed__37_SetStateMachine_mF5BCC166CCE3B63F632DADBB34A216F94530EA55_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[145] = 
+{
+	1576,
+	1576,
+	1576,
+	1576,
+	1576,
+	1576,
+	1576,
+	1576,
+	1531,
+	1576,
+	1576,
+	1311,
+	1311,
+	2579,
+	2549,
+	2579,
+	2549,
+	2591,
+	2549,
+	1576,
+	1576,
+	1553,
+	1531,
+	2245,
+	1576,
+	1576,
+	1576,
+	1576,
+	1576,
+	1238,
+	1237,
+	1576,
+	790,
+	1576,
+	581,
+	1311,
+	790,
+	1311,
+	393,
+	1311,
+	790,
+	1311,
+	393,
+	1311,
+	790,
+	1302,
+	382,
+	1311,
+	1311,
+	1311,
+	1311,
+	1311,
+	1311,
+	1311,
+	1311,
+	1311,
+	1520,
+	2444,
+	2236,
+	1576,
+	1311,
+	791,
+	1576,
+	1311,
+	791,
+	1576,
+	1311,
+	791,
+	1576,
+	1311,
+	791,
+	1583,
+	1576,
+	1311,
+	1311,
+	1311,
+	1311,
+	1311,
+	1311,
+	1311,
+	1311,
+	791,
+	484,
+	484,
+	1576,
+	1531,
+	1520,
+	1019,
+	1019,
+	387,
+	580,
+	1576,
+	1531,
+	1531,
+	2486,
+	1576,
+	1531,
+	1576,
+	1576,
+	1019,
+	1576,
+	2591,
+	1576,
+	1302,
+	1576,
+	1311,
+	1576,
+	1311,
+	1576,
+	1311,
+	1576,
+	1311,
+	1302,
+	1576,
+	1553,
+	1531,
+	1576,
+	1531,
+	1576,
+	1311,
+	1553,
+	1330,
+	1576,
+	1576,
+	1311,
+	1576,
+	1302,
+	1576,
+	1553,
+	1531,
+	1576,
+	1531,
+	2591,
+	1576,
+	1576,
+	1576,
+	1311,
+	1576,
+	1311,
+	1576,
+	1311,
+	1576,
+	1311,
+	1576,
+	1311,
+};
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	145,
+	s_methodPointers,
+	18,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_AssemblyU2DCSharp_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
