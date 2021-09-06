@@ -5,28 +5,22 @@ using UnityEngine;
 public class MouseCast : MonoBehaviour
 {
     RaycastHit _hit;
+    public LayerMask _clicableLayer;
+    public Material _defaultMaterial;
+    public Material _changeMaterial;
     private GameObject _currentTarget;
-   
-   
+
+
     void Update()
     {
         if (Input.GetMouseButtonDown(1) &&
-                 Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out _hit))
+                 Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out _hit, _clicableLayer))
         {
             if (_hit.collider.tag == "Unit")
             {
                 _currentTarget = _hit.collider.gameObject;
-                _currentTarget.GetComponent<Renderer>().material.color = Color.red;
+                _currentTarget.GetComponent<MeshRenderer>().material = _changeMaterial;
             }
-            else if (_hit.collider.tag == "GreenPart" && _currentTarget != null)
-            {
-                _currentTarget.transform.TransformDirection(_hit.transform.position);
-            }
-            else if (_hit.collider.tag == "GreenPart" && _currentTarget == null)
-            {
-                return;
-            }
-            else return;
         }
     }
 }
